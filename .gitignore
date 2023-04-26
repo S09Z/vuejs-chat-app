@@ -1,11 +1,26 @@
+node_modules
+.next
+.DS_Store
+**/*.php
+**/.env
 .yarn/*
-!.yarn/patches
-!.yarn/plugins
 !.yarn/releases
+!.yarn/plugins
 !.yarn/sdks
-!.yarn/versions
-
-# Swap the comments on the following lines if you don't wish to use zero-installs
-# Documentation here: https://yarnpkg.com/features/zero-installs
-!.yarn/cache
-#.pnp.*
+.pnp.*
+cache
+.idea
+build
+workspace.code-workspace
+generated
+tsconfig.tsbuildinfo
+tsconfig.build.tsbuildinfo
+secrets
+dist
+.vscode/
+*.sh
+!entrypoint.sh
+ecosystem.config.js
+pnpm-lock.yaml
+./false
+test/
